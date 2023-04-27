@@ -5,7 +5,7 @@ def insertProduct(name, price,imageUrl, description):
     connection = mysql.connector.connect(
         host = "localhost",
         user = "root",
-        password = "Ysfsql!03",
+        password = "********",
         database = "node-app"
     )
     cursor = connection.cursor()
