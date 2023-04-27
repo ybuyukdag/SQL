@@ -4,7 +4,7 @@ from datetime import datetime
 schooldb = mysql.connector.connect(
     host = "localhost",
     user = "root",
-    password = "Ysfsql!03",
+    password = "*********", #this is private for each person
     database = "schooldb"
     )
 
